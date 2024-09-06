@@ -1,0 +1,61 @@
+
+# Town Hall Website Project
+
+This project is part of the exercises for developing a new version of the "Town Hall" website from the book **"A Crash Course in HTML and CSS"**. The exercise spans chapters 3 to 8, where the goal is to develop a website with different content, formatting, and layouts compared to the original example in the book.
+
+## Folder Structure
+The project uses a realistic folder structure as follows:
+
+```
+town_hall_1/
+│
+├── images/
+├── speakers/
+├── styles/
+├── templates/
+└── text/
+```
+- **images/**: Contains the image files used in the website.
+- **speakers/**: Contains HTML pages for the speakers.
+- **styles/**: Holds the CSS files for styling.
+- **templates/**: Contains reusable HTML templates.
+- **text/**: Contains text files with the content used in the web pages.
+
+## Key Features
+- Develop a home page with proper HTML structure including headers, footers, and main content sections.
+- Proper usage of `<h1>`, `<h2>`, and `<p>` tags for headings and paragraphs.
+- Use of `<img>` tags for images and specifying attributes such as `alt`, `width`, and `height`.
+- Use of links and references for speaker profiles.
+- Validation and testing of HTML in different browsers (Chrome, Firefox, and Internet Explorer).
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/town-hall-project.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd town-hall-project
+   ```
+
+3. Open the `index.html` file in your browser to view the homepage.
+
+## Instructions
+
+- Add content from the `text/` folder to the appropriate sections of the HTML files.
+- Style the page using the CSS files provided in the `styles/` folder.
+- Ensure to link speaker profiles in the `speakers/` folder, with a proper reference format such as `speakers/toobin.html`.
+
+## Testing
+
+1. Open the `index.html` file in Chrome, Firefox, and IE to ensure compatibility.
+2. Use the **W3C HTML Validator** to validate your HTML pages.
+3. Ensure that all links are working as intended.
+
+## License
+This project is for educational purposes only.
+
