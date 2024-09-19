@@ -9,9 +9,51 @@ header img {
 	float: left;
 }
 
+header h2 {
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30px;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+
 /* the styles for the section */
 main {
 	clear: left;
+}
+
+/* Rule for h1 within the main element */
+main h1 {
+    font-size: 150%;
+}
+
+/* Rule for h2 within the main element */
+main h2 {
+    font-size: 130%;
+    color: #800000;
+}
+
+/* Rule for h3 within the main element */
+main h3 {
+    font-size: 105%;
+}
+
+/* Rule for italicizing links on focus or hover */
+a:focus, a:hover {
+    font-style: italic;
+}
+
+/* Rule for centering the <p> tag in the footer */
+footer p {
+    text-align: center;
+}
+
+.shadow {
+    text-shadow: 2px 2px #800000; /* Adds a red shadow to the text */
 }
 
 /* the styles for the footer */
