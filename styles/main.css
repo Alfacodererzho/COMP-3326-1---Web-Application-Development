@@ -171,4 +171,13 @@ article h3{
 
 
 /* Navigation menu styling */
-#
+#nav_menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu li {
+    float: left;
+}
+
