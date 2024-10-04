@@ -30,7 +30,9 @@ main aside {
     padding-left: 20px; 
     padding-bottom: 20px; 
 }
-
+a:focus, a:hover {
+	font-style: italic;
+}
 
 
 
