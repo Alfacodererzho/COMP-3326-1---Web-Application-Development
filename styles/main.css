@@ -175,9 +175,58 @@ article h3{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    position: relative;
 }
 
 #nav_menu li {
-    float: left;
+    /* float: left; */
+    flex: 1;
 }
 
+#nav_menu li a {
+    display: block;
+    /* width: 20%; */
+    width: 100%;
+    text-align: center;
+    padding: 1em 0; /* 1em padding above and below */
+    text-decoration: none; /* Remove underline */
+    background-color: #800000; /* Set background color */
+    color: white; /* Set text color */
+    font-weight: bold; /* Set font weight to bold */
+
+}
+
+#nav_menu li a.current {
+    color: yellow; /* Makes the text of the current (Home) item yellow */
+}
+
+.submanu{
+    display: none;
+    position: absolute;
+    top:100%;
+    left:0;
+    background-color: #800000;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.submenu li a:hover {
+    background-color: #FFCC00;
+    color: black;
+}
+
+#nav_menu li:hover .submenu {
+    display: block;  /* Displays submenu when hovering over parent */
+}
+
+
+.submenu li a {
+    padding: 10px;
+    color: white;
+}
+.submenu li {
+    width: 100%;
+}
