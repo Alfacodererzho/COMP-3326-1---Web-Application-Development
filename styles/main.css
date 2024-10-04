@@ -136,6 +136,11 @@ section ul {
 section li {
 	padding-bottom: .35em;
 }
+.ticket-packages {
+    list-style-type: circle; /* Changes bullet points to hollow circles */
+    padding-left: 1.25em;  /* Keeps the same padding for the list */
+}
+
 
 /* the styles for the article */
 article {
@@ -190,3 +195,5 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+
+
