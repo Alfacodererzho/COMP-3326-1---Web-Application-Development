@@ -172,3 +172,61 @@ main section h1 {
         color: #800000; /* Switch color */
         margin-bottom: 0.2em;
     }
+
+
+/* Styles for the navigation menu */
+nav {
+    position: relative; /* Added relative positioning */
+}
+
+#nav_menu {
+    list-style-type: none; /* Removes bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#nav_menu li {
+    flex: 1;
+}
+#nav_menu li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+#nav_menu li a.current {
+    color: yellow;
+}
+
+/* Styles for the submenu */
+#nav_menu li:hover > .submenu {
+    display: block; /* Display submenu on hover */
+}
+#nav_menu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.submenu {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    top: 100%;
+    float: right;
+    width: 20%;
+    background-color: #800000;
+}
+.submenu li {
+    float: none;            /* Prevent floating */
+    width: 100%;            /* Full width */
+}
+.submenu li a {
+    padding: 0.5em 1em;     /* Adjust padding */
+    text-align: left;       /* Align text to the left */
+    border-top: 1px solid #fff; /* Optional separator */
+}

@@ -100,7 +100,7 @@ nav {
 .submenu li a {
     padding: 0.5em 1em;     /* Adjust padding */
     text-align: left;       /* Align text to the left */
-    border-top: 1px solid #fff; /* Optional separator */
+    /* border-top: 1px solid #fff; Optional separator */
 }
 
 /* the styles for the main content */
